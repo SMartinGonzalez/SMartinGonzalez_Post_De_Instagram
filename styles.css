@@ -1,3 +1,102 @@
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
-    background-color: green;
+    background-color: black;
+}
+
+.post{
+    width: 550px;
+    height: 650px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.post_header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+span.icono_header{
+    height: 80%;
+    width: 0%;
+    align-self: center;
+    font-size: 1.9em;
+    margin: 4px 4px 0px 8px; 
+}
+
+span.usuario{
+    height : 80%;
+    width :  85;  
+    font-size: 1em;
+    padding-top: 10px;
+    padding-right: 400px;
+}
+
+span.puntos{
+    margin: 8px 15px 8px 0px;
+    align-self: center;
+    font-size: 1.5em;
+}
+
+img{
+    max-width: 550px;
+}
+
+.postIcons{
+    width:100%;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+span.heart{
+    height:80%;
+    width: 4%;
+    align-self: center;
+    font-size: 1.7em;
+    margin : 8px 4px 0px 10px
+}
+
+span.comment{
+    height: 80%;
+    width: 4%;
+    align-self: center;
+    font-size: 1.7em;
+    margin : 8px 4px 0px 10px
+}
+
+span.share{
+    height: 80%;
+    width: 80%;
+    align-self: center;
+    font-size: 1.7em;
+    margin: 8px 4px 0px 10px;
+}
+
+span.save{
+    height: 80%;
+    align-self: center;
+    font-size: 1.7em;
+    margin:8px 15px 0px 8px ;
+}
+
+.texto{
+    width: 100%;
+    height: 30%;
+    padding: 35px 15px 5px 5px;
+
+    font-size: 1em;
+
 }
